@@ -22,3 +22,18 @@ ul{
 li{
   margin-bottom: 8px;
 }
+
+nav {
+  margin-bottom: 25px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+  front-weight: bold;
+}
+
+nav a:hover {
+  color: #b22222;
+}
