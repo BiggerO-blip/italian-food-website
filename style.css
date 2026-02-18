@@ -59,3 +59,18 @@ nav a:hover {
   margin: 20px 0;
   border-radius: 10px;
 }
+
+.ingredients,
+.steps {
+  margin-left: 20px;
+}
+
+.ingredients li,
+.steps li {
+  margin-bottom: 8px;
+}
+
+.food-section h3 {
+  margin-top: 15px;
+  color: #444;
+}
