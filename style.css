@@ -74,3 +74,39 @@ nav a:hover {
   margin-top: 15px;
   color: #444;
 }
+
+.food-grid {
+  display: grid;
+  grid-template-colums: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+}
+
+.food-card {
+  background-color: white;
+  border: 2px solid #ddd;
+  dorder-radius: 12px;
+  text-decoration: none;
+  color: #333;
+  padding: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.food-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.food-card h2 { 
+  margin: 10px 0 5px;
+  color: #b22222;
+}
+
+.food-card p {
+  margin: 0;
+}
+
+.food-card:hove {
+  transform: translateY(-5);
+  box-shadow: 0 6px 15 px rgba(0,0,0,0.15);
+}
