@@ -110,3 +110,35 @@ nav a:hover {
   transform: translateY(-5);
   box-shadow: 0 6px 15 px rgba(0,0,0,0.15);
 }
+
+.hero {
+  height: 700vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+
+.hero-text {
+  position: relative;
+  color: white;
+  padding: 30px;
+  mx-width: 700px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
