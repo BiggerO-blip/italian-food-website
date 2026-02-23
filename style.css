@@ -113,33 +113,37 @@ nav a:hover {
 }
 
 .hero {
-  height: 700vh;
+  height: 75vh;
   background-size: cover;
   background-position: center;
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.45);
+  background: rgba(0,0,0,0.5);
 }
 
 .hero-text {
   position: relative;
   color: white;
-  padding: 30px;
-  mx-width: 700px;
+  mx-width: 800px;
+  padding: 20px;
 }
 
 .hero-text h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+  letter-spacing: 2px;
   margin-bottom: 10px;
 }
 
 .hero-text p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  opacity: 0.9;
 }
